@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Party</title>
+    <!-- !google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Macondo&display=swap"
+      rel="stylesheet"
+    />
+    <!--! font awesome -->
+    <script
+      src="https://kit.fontawesome.com/21da3bc2eb.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- !css -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- !sidebar -->
+    <i class="fa-solid fa-bars bar"></i>
+    <aside>
+      <ul class="links">
+        <a href="#header" data-sec="header">Home</a>
+        <a href="#details" data-sec="details">Details</a>
+        <a href="#date" data-sec="date">Date</a>
+        <a href="#contact" data-sec="contact">Contact</a>
+      </ul>
+    </aside>
+
+    <!-- !header -->
+    <section class="header" id="header">
+      <h1 class="title">Cairo Party</h1>
+      <p>let's have fun!</p>
+      <p class="thedate">1 April 2023</p>
+    </section>
+
+    <!-- !details -->
+    <section class="details" id="details">
+      <div class="container">
+        <div class="speakers">
+          <div class="speaker">
+            <button>speaker 1</button>
+            <div class="info active">
+              <h3>hwa msh hwa wla ana ana 1</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Perspiciatis illo hic, possimus labore at illum doloremque
+                doloribus libero est numquam.
+              </p>
+            </div>
+          </div>
+          <div class="speaker">
+            <button>speaker 2</button>
+            <div class="info">
+              <h3>hwa msh hwa wla ana 2</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Perspiciatis illo hic, possimus labore at illum doloremque
+                doloribus libero est numquam.
+              </p>
+            </div>
+          </div>
+          <div class="speaker">
+            <button>speaker 3</button>
+            <div class="info">
+              <h3>hwa msh hwa wla ana 3</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Perspiciatis illo hic, possimus labore at illum doloremque
+                doloribus libero est numquam.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- !date -->
+    <section class="date" id="date">
+      <div class="container">
+        <div class="wrapper">
+          <div class="day box"><span>day</span></div>
+          <div class="hr box"><span>hr</span></div>
+          <div class="min box"><span>mins</span></div>
+          <div class="sec box"><span>secs</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- !contact -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <!-- !left -->
+        <div class="left">
+          <div class="join">
+            <h2>JOIN US</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Obcaecati!
+            </p>
+          </div>
+          <div class="info">
+            <h3>CONTACT INFO</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus
+              explicabo optio, veniam esse quae enim blanditiis facere aliquid
+              sequi ipsa.
+            </p>
+            <br />
+
+            <p class="address">
+              <i class="fa-solid fa-location-dot"></i>
+              New Street 22545, Nexa Road, New York City, USA
+            </p>
+            <p class="mail">
+              <i class="fa-solid fa-envelope"></i>
+              hello@uigrid.com
+            </p>
+            <p class="phone">
+              <i class="fa-solid fa-phone"></i>
+              001-000-000-000
+            </p>
+          </div>
+
+          <div class="social">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-square-twitter"></i>
+            <i class="fa-brands fa-square-google-plus"></i>
+          </div>
+        </div>
+
+        <!-- !right -->
+        <div class="right">
+          <form action="">
+            <input type="text" placeholder="Enter Name" />
+            <input type="text" placeholder="Enter Email" />
+            <textarea
+              name="message"
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Enter Message"
+              maxlength="22"
+            ></textarea>
+            <p><span>11</span> chars are available</p>
+            <button type="submit">SEND MESSAGE</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- !footer -->
+    <footer>@iahmedfarag</footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

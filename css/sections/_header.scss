@@ -1,0 +1,31 @@
+// !header
+.header {
+  background-image: url("../images/header.png");
+  background-size: cover;
+  background-position: center center;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+
+  .title {
+    font-size: 100px;
+    @media (max-width: 576px) {
+      font-size: 80px;
+    }
+  }
+  p {
+    font-size: 30px;
+  }
+  p.thedate {
+    border-bottom: 2px solid white;
+    font-size: 40px;
+    padding: 0 20px;
+    border-radius: 25px;
+    @media (max-width: 576px) {
+      font-size: 35px;
+    }
+  }
+}
