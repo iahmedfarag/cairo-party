@@ -48,11 +48,16 @@ let detailsInfo = Array.from(
   document.querySelectorAll(".details .speaker .info")
 );
 
+detailsInfo[0].style.maxHeight = detailsInfo[0].scrollHeight + "px";
+
 detailsBtns.map((btn) => {
   btn.addEventListener("click", (e) => {
     detailsInfo.map((info) => {
+      info.style.maxHeight = null;
       info.classList.remove("active");
     });
+    e.target.nextElementSibling.style.maxHeight =
+      e.target.nextElementSibling.scrollHeight + 20 + "px";
     e.target.nextElementSibling.classList.add("active");
   });
 });
